@@ -1,7 +1,7 @@
 {
   "name": "solids-world",
   "productName": "solids-world",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "private": true,
   "description": "开源可交互的固体物理与原子物理 3D 图鉴（离线桌面应用）",
   "license": "MIT",
