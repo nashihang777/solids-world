@@ -4,6 +4,10 @@
 
 ![状态](https://img.shields.io/badge/状态-积极开发中-blue) ![许可](https://img.shields.io/badge/license-MIT-green)
 
+### 🇬🇧 [English version →](README.en.md)
+
+*Click the link above to read this README in English. The English version is a condensed translation of this page.*
+
 ## 这是什么
 
 - **一本立体教具书**：按"图鉴条目"组织（一个晶体结构/一个轨道 = 一个条目），每条配有程序化 3D 模型、关键数据、分步讲解（讲到哪、镜头转到哪）与小测验；
