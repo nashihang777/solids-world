@@ -1,0 +1,7 @@
+{
+  "atomCount": 8,
+  "elements": { "Si": 8 },
+  "cell": { "a": 5.4309, "b": 5.4309, "c": 5.4309, "alpha": 90, "beta": 90, "gamma": 90 },
+  "spaceGroupContains": "F d -3 m",
+  "note": "数值带括号不确定度后缀，剥析后取值"
+}

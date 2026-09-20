@@ -1,0 +1,7 @@
+{
+  "atomCount": 8,
+  "elements": { "Na": 4, "Cl": 4 },
+  "cell": { "a": 5.6402, "b": 5.6402, "c": 5.6402, "alpha": 90, "beta": 90, "gamma": 90 },
+  "spaceGroupContains": "F m -3 m",
+  "note": "只给不对称单元（2 原子），查表展开为惯用胞 8 原子"
+}

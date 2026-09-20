@@ -1,0 +1,7 @@
+{
+  "atomCount": 5,
+  "elements": { "Sr": 1, "Ti": 1, "O": 3 },
+  "cell": { "a": 3.905, "b": 3.905, "c": 3.905, "alpha": 90, "beta": 90, "gamma": 90 },
+  "spaceGroupContains": "P m -3 m",
+  "note": "H-M 空间群名查表展开"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "solids-world",
+  "productName": "solids-world",
+  "version": "1.0.0",
+  "private": true,
+  "description": "开源可交互的固体物理与原子物理 3D 图鉴（离线桌面应用）",
+  "license": "MIT",
+  "main": "dist-electron/main.js",
+  "scripts": {
+    "dev": "vite",
+    "typecheck": "tsc --noEmit -p tsconfig.electron.json && tsc --noEmit -p tsconfig.src.json",
+    "test": "vitest run",
+    "build": "vite build",
+    "dist": "electron-builder --win --linux",
+    "dist:win": "electron-builder --win",
+    "dist:linux": "electron-builder --linux"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@react-three/drei": "^9.122.0",
+    "@react-three/fiber": "^8.18.0",
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/react": "^16.3.3",
+    "@types/node": "^22",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/three": "^0.171.0",
+    "@vitejs/plugin-react": "^4",
+    "electron": "^33",
+    "electron-builder": "^26.15.3",
+    "jsdom": "^26",
+    "n8ao": "^1.10.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.171.0",
+    "typescript": "^5.7",
+    "vite": "^6",
+    "vite-plugin-electron": "^0.29",
+    "vitest": "^3"
+  }
+}

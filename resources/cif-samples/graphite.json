@@ -1,0 +1,8 @@
+{
+  "atomCount": 4,
+  "elements": { "C": 4 },
+  "cell": { "a": 2.464, "b": 2.464, "c": 6.71, "alpha": 90, "beta": 90, "gamma": 120 },
+  "spaceGroupContains": "P 63/m m c",
+  "matrixA2x": [-1.232, 2.1347],
+  "note": "六方晶胞：γ=120° 的 b 轴笛卡尔分量 b·cos120°、b·sin120°"
+}

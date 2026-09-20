@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>solids-world</title>
+    <script id="theme-boot">
+      ;(function () {
+        var t = null
+        try {
+          t = localStorage.getItem('sw:theme')
+        } catch (e) {}
+        var light = false
+        if (t === 'light') {
+          light = true
+        } else if (t !== 'dark') {
+          var mq = window.matchMedia ? window.matchMedia('(prefers-color-scheme: light)') : null
+          light = !!(mq && mq.matches)
+        }
+        document.documentElement.dataset.theme = light ? 'light' : 'dark'
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

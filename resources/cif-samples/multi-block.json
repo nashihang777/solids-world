@@ -1,0 +1,8 @@
+{
+  "atomCount": 5,
+  "elements": { "Ba": 1, "Ti": 1, "O": 3 },
+  "cell": { "a": 3.905, "b": 3.905, "c": 3.905, "alpha": 90, "beta": 90, "gamma": 90 },
+  "spaceGroupContains": "P m -3 m",
+  "blockName": "structure",
+  "note": "多 data 块：取第一个含坐标的块"
+}

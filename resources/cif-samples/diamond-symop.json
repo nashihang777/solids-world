@@ -1,0 +1,7 @@
+{
+  "atomCount": 8,
+  "elements": { "C": 8 },
+  "cell": { "a": 3.567, "b": 3.567, "c": 3.567, "alpha": 90, "beta": 90, "gamma": 90 },
+  "spaceGroupContains": "Fd-3m",
+  "note": "显式 symop 操作列表（192 操作）展开"
+}

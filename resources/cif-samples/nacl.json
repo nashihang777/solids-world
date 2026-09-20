@@ -1,0 +1,7 @@
+{
+  "atomCount": 8,
+  "elements": { "Na": 4, "Cl": 4 },
+  "cell": { "a": 5.6402, "b": 5.6402, "c": 5.6402, "alpha": 90, "beta": 90, "gamma": 90 },
+  "spaceGroupContains": "P1",
+  "note": "显式全坐标，无空间群声明，按 P1 如实标注"
+}

@@ -1,0 +1,57 @@
+{
+  "appId": "world.solids.app",
+  "productName": "solids-world",
+  "directories": {
+    "output": "release"
+  },
+  "files": [
+    "dist/**",
+    "dist-electron/**",
+    "resources/icons/icon.png",
+    "!**/*.map"
+  ],
+  "extraResources": [
+    {
+      "from": "resources/cif-samples",
+      "to": "cif-samples",
+      "filter": ["**/*.{cif,json}"]
+    }
+  ],
+  "asar": true,
+  "icon": "resources/icons/icon.png",
+  "win": {
+    "target": [
+      {
+        "target": "nsis",
+        "arch": ["x64"]
+      }
+    ],
+    "icon": "resources/icons/icon.png"
+  },
+  "nsis": {
+    "oneClick": true,
+    "perMachine": false,
+    "allowToChangeInstallationDirectory": false,
+    "artifactName": "solids-world-${version}-setup.${ext}"
+  },
+  "linux": {
+    "target": [
+      {
+        "target": "AppImage",
+        "arch": ["x64"]
+      },
+      {
+        "target": "deb",
+        "arch": ["x64"]
+      }
+    ],
+    "category": "Education",
+    "icon": "resources/icons/icon.png",
+    "artifactName": "solids-world-${version}-${arch}.${ext}",
+    "maintainer": "世界航海",
+    "description": "开源可交互的固体物理与原子物理 3D 图鉴（离线桌面应用）"
+  },
+  "deb": {
+    "artifactName": "solids-world_${version}_${arch}.${ext}"
+  }
+}
